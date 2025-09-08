@@ -1,0 +1,177 @@
+********************************************************************************
+***                       Micro-Cap 12.2.0.0 (32 bit)                        ***
+***                                                                          ***
+***                                                                          ***
+***                      Dynamic DC of Capstone_Design                       ***
+***                           9/8/2025 11:48:35 AM                           ***
+********************************************************************************
+
+*****************************************************
+***                Temperature=27                 ***
+*****************************************************
+
+Temperature=27
+
+DC Operating Point Voltages
+===========================
+Node         Voltage  Node         Voltage  Node         Voltage 
+1             5.000   2           159.145m  PWM           0.000  
+4             5.000   5           159.145m  VDD           5.000  
+7             5.000   8             5.000  
+
+
+Operating Point for Devices of Type Mosfet NMOS
+===============================================
+Instance:                N1             N2
+Using model:        ALD1106        ALD1107
+
+Capacitance Terms:
+CBD                188.297f         0.000 
+CBS                558.644f         0.000 
+CGSOVL               2.000f         0.000 
+CGDOVL               2.000f         0.000 
+CGBOVL               0.000          0.000 
+CGS                  0.000          0.000 
+CGD                  0.000          0.000 
+CGB                482.446f         0.000 
+
+Conductance Terms:
+GM                   0.000          0.000 
+GDS                  0.000          0.000 
+GMBS                 0.000          0.000 
+
+Current Terms:
+ID                   4.851p        -4.851p
+
+Voltage Terms:
+VGS                  0.000         -5.000 
+VDS                  5.000         -5.000 
+VBS                159.145m        -4.841 
+VGB               -159.145m      -159.145m
+VGD                 -5.000          0.000 
+VDB                  4.841       -159.145m
+VTH                628.705m         0.000 
+VDSAT                0.000          0.000 
+
+Power DC Terms:
+PD                  24.254p        24.254p
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ig                   0.000          0.000 
+Id                   4.851p        -4.851p
+Is                  -4.851p         4.851p
+Ib               1.177E-019     2.286E-023
+
+Condition:
+State                   OFF            OFF
+
+Device Variables:
+m                    1.000          1.000 
+l                    0.000          0.000 
+w                    0.000          0.000 
+ad                   0.000          0.000 
+as                   0.000          0.000 
+pd                   0.000          0.000 
+ps                   0.000          0.000 
+nrd                  0.000          0.000 
+nrs                  0.000          0.000 
+nrb                  0.000          0.000 
+nrg                  0.000          0.000 
+vds                  0.000          0.000 
+vgs                  0.000          0.000 
+vbs                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Mosfet PMOS
+===============================================
+Instance:                P1             P2
+Using model:        ALD1107        ALD1106
+
+Capacitance Terms:
+CBD                500.000f         0.000 
+CBS                500.000f         0.000 
+CGSOVL               2.000f         0.000 
+CGDOVL               2.000f         0.000 
+CGBOVL               0.000          0.000 
+CGS                345.314f         0.000 
+CGD                345.314f         0.000 
+CGB                  0.000          0.000 
+
+Conductance Terms:
+GM                   1.614p       558.397f
+GDS                836.000u       100.000u
+GMBS               406.084f         0.000 
+
+Current Terms:
+ID                   6.748p        -2.792p
+
+Voltage Terms:
+VGS                 -5.000         -5.000 
+VDS                  8.213n       -28.361n
+VBS                  4.106n       -14.180n
+VGB                 -5.000         -5.000 
+VGD                 -5.000         -5.000 
+VDB                  4.106n       -14.180n
+VTH               -820.000m         0.000 
+VDSAT               -4.180         -5.000 
+
+Power DC Terms:
+PD               5.446E-020     7.795E-020
+PS                   0.000          0.000 
+
+DC Pin Currents:
+Ig                   0.000          0.000 
+Id                   6.748p        -2.792p
+Is                  -6.748p         2.792p
+Ib              -4.967E-021    -4.001E-022
+
+Condition:
+State                   LIN            LIN
+
+Device Variables:
+m                    1.000          1.000 
+l                    0.000          0.000 
+w                    0.000          0.000 
+ad                   0.000          0.000 
+as                   0.000          0.000 
+pd                   0.000          0.000 
+ps                   0.000          0.000 
+nrd                  0.000          0.000 
+nrs                  0.000          0.000 
+nrb                  0.000          0.000 
+nrg                  0.000          0.000 
+vds                  0.000          0.000 
+vgs                  0.000          0.000 
+vbs                  0.000          0.000 
+
+
+
+Operating Point for Devices of Type Resistor
+============================================
+Instance:                 R1
+V                   -20.148n
+Power DC Terms:
+PD                4.059E-020
+
+DC Pin Currents:
+Ir                   -2.015p
+
+Device Variables:
+tc1                   0.000 
+tc2                   0.000 
+
+
+
+Operating Point for Devices of Type SPICE Source
+================================================
+Instance:                V1             V4
+V                    0.000          5.000 
+Power DC Terms:
+PG                   0.000         48.509p
+
+DC Pin Currents:
+ISource              0.000         -9.702p
+
+
