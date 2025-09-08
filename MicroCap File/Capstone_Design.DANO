@@ -15,10 +15,10 @@ Temperature=27
 AC Voltages at Frequency=1e+006 (Mag, Degrees)
 ==============================================
 Node              Voltage  Node              Voltage 
-1          2.463m,89.692°  2        377.239u,89.693° 
-PWM                     1  4          1.231m,89.692° 
-5          6.701u,89.692°  VDD                     0 
-7          1.231m,89.692°  8        615.747u,89.692° 
+1          2.463m,89.692Â°  2        377.239u,89.693Â° 
+PWM                     1  4          1.231m,89.692Â° 
+5          6.701u,89.692Â°  VDD                     0 
+7          1.231m,89.692Â°  8        615.747u,89.692Â° 
 
 
 AC values for Mosfet NMOS (Mag, Degrees)
@@ -28,13 +28,13 @@ Using model:                ALD1106                ALD1107
 
 Power AC Terms:
 PD                           0.015f                 0.001f
-PS                      3.077p,-90°                      0
+PS                      3.077p,-90Â°                      0
 
 AC Pin Currents:
-Ig                1.174n,-306.979m°                      0
-Id                  2.499n,179.691°        1.225f,-90.308°
-Is                1.324n,-309.928m°         1.225f,89.692°
-Ib              4.136E-025,179.776°     1.972E-031,89.776°
+Ig                1.174n,-306.979mÂ°                      0
+Id                  2.499n,179.691Â°        1.225f,-90.308Â°
+Is                1.324n,-309.928mÂ°         1.225f,89.692Â°
+Ib              4.136E-025,179.776Â°     1.972E-031,89.776Â°
 
 Device Variables:
 m                            1.000                  1.000 
@@ -60,14 +60,14 @@ Instance:                        P1                     P2
 Using model:                ALD1107                ALD1106
 
 Power AC Terms:
-PD                   2.536n,0.037f°                75.829p
-PS                      2.182u,-90°                      0
+PD                   2.536n,0.037fÂ°                75.829p
+PS                      2.182u,-90Â°                      0
 
 AC Pin Currents:
-Ig                   4.364u,89.929°                      0
-Id                  4.241u,-90.097°       123.149n,89.692°
-Is                123.175n,-89.147°      123.149n,-90.308°
-Ib              2.482E-024,179.702°     1.972E-031,89.552°
+Ig                   4.364u,89.929Â°                      0
+Id                  4.241u,-90.097Â°       123.149n,89.692Â°
+Is                123.175n,-89.147Â°      123.149n,-90.308Â°
+Ib              2.482E-024,179.702Â°     1.972E-031,89.552Â°
 
 Device Variables:
 m                            1.000                  1.000 
@@ -92,10 +92,10 @@ AC values for Resistor (Mag, Degrees)
 Instance:                         R1
 
 Power AC Terms:
-PD                  75.829p,-0.038f°
+PD                  75.829p,-0.038fÂ°
 
 AC Pin Currents:
-Ir                 123.149n,-90.308°
+Ir                 123.149n,-90.308Â°
 
 Device Variables:
 tc1                           0.000 
@@ -108,9 +108,9 @@ AC values for SPICE Source (Mag, Degrees)
 Instance:                        V1                     V4
 
 Power AC Terms:
-PG                  2.182u,-89.929°                      0
+PG                  2.182u,-89.929Â°                      0
 
 AC Pin Currents:
-ISource             4.364u,-90.071°         4.364u,89.897°
+ISource             4.364u,-90.071Â°         4.364u,89.897Â°
 
 
